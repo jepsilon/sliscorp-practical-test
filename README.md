@@ -31,12 +31,12 @@ Escenas: el juego puede tener N cantidad de escenas, pero debe tener como mínim
 	- Puntuación total
 
 ``Escena – Registro de usuario:`` Esta escena debe tener dos entradas de textos para la creación de un nuevo usuario:
-	username: debe ser un campo de tipo string que represente un correo o un alias
-	password: debe ser un campo de tipo string alfa-numérico
+	- username: debe ser un campo de tipo string que represente un correo o un alias
+	- password: debe ser un campo de tipo string alfa-numérico
 
 ``Escena – Inicio de sesión:`` Esta escena debe tener dos entradas de textos para el inicio de sesión:
-	username: debe ser un campo de tipo string que represente un correo o un alias
-	password: debe ser un campo de tipo string alfa-numérico
+	- username: debe ser un campo de tipo string que represente un correo o un alias
+	- password: debe ser un campo de tipo string alfa-numérico
 
 ``Escena – Puntuación total:`` Esta escena deberá mostrar la puntación total que ha acumulado el usuario en el transcurro del juego
 
