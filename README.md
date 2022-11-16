@@ -26,17 +26,17 @@ La idea principal es crear un videojuego 2D de tipo plataforma, que posea un mun
 ``Sistema de puntación:`` Este debe estar representado en la GUI del usuario y debe actualizarse cada vez que el usuario obtenga una moneda u o recompensa. Este sistema debe sincronizarse con la puntación actual del usuario en el servidor.
 
 Escenas: el juego puede tener N cantidad de escenas, pero debe tener como mínimo 3 escenas fundamentales:
-	- Registro de usuario
-	- Inicio de sesión
-	- Puntuación total
+- Registro de usuario
+- Inicio de sesión
+- Puntuación total
 
 ``Escena – Registro de usuario:`` Esta escena debe tener dos entradas de textos para la creación de un nuevo usuario:
-	- username: debe ser un campo de tipo string que represente un correo o un alias
-	- password: debe ser un campo de tipo string alfa-numérico
+- username: debe ser un campo de tipo string que represente un correo o un alias
+- password: debe ser un campo de tipo string alfa-numérico
 
 ``Escena – Inicio de sesión:`` Esta escena debe tener dos entradas de textos para el inicio de sesión:
-	- username: debe ser un campo de tipo string que represente un correo o un alias
-	- password: debe ser un campo de tipo string alfa-numérico
+- username: debe ser un campo de tipo string que represente un correo o un alias
+- password: debe ser un campo de tipo string alfa-numérico
 
 ``Escena – Puntuación total:`` Esta escena deberá mostrar la puntación total que ha acumulado el usuario en el transcurro del juego
 
