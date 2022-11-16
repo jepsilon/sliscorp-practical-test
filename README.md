@@ -11,7 +11,7 @@
 
 - Beunas practicas y clean code
 - Creatividad
-- Patrone de diseño: Creación, estructura y comportamiento
+- Patrones de diseño: Creación, estructura y comportamiento
 - Principios SOLID
 - Consumo de API REST FULL
 
