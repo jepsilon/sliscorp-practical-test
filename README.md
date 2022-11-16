@@ -76,4 +76,4 @@ Nota: Al utilizar **“UnityWebRequest”** se deberá setear explícitamente la
 **Entra en esta URL para obtener una descripción mas detallada de la API:**
 
 > Swagger OpenApi Doc:
-> https://documenter.getpostman.com/view/12165683/2s8YmKSPwV
+> [Postman doc API](https://documenter.getpostman.com/view/12165683/2s8YmKSPwV){:target="_blank"}
