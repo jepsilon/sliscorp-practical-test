@@ -24,6 +24,7 @@ La idea principal es crear un videojuego 2D de tipo plataforma, que posea un mun
 ``Monedas:``  puede ser cualquier tipo de objeto que represente algo importante de agarrar, buscar, o tomar para el usuario. Cada uno de estos objetos deberán representar un tipo de puntación numérica **“solo números enteros sin signo”** para el usuario **“mientras más obtengas más puntos tienes”**.
 
 ``Sistema de puntación:`` Este debe estar representado en la GUI del usuario y debe actualizarse cada vez que el usuario obtenga una moneda u o recompensa. Este sistema debe sincronizarse con la puntación actual del usuario en el servidor.
+
 Escenas: el juego puede tener N cantidad de escenas, pero debe tener como mínimo 3 escenas fundamentales:
 	- Registro de usuario
 	- Inicio de sesión
