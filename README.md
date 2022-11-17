@@ -9,17 +9,17 @@
 
 ## Puntos a evaluar
 
-- Buenas prácticas y clean code
+- Beunas practicas y clean code
 - Creatividad
 - Patrones de diseño: Creación, estructura y comportamiento
 - Principios SOLID
-- Consumo de API REST FULL
+- Consumo de API RESTful
 
 Este repositorio posee un proyecto pre-generado con Unity el cual tiene cargado 4 packages para el diseño de un juego 2D de plataforma, y un package el cual contiene assests para el diseño GUI.
 
 La idea principal es crear un videojuego 2D de tipo plataforma, que posea un mundo pregenerado con **Tiles** o **Procedural**, el mundo deberá tener obstáculos y monedas; o algún otro tipo de ítems el cual sea obtenible por el usuario y deberán ser colocados en el mundo de manera procedural o pre-generado según el tipo de mundo que elijan.
 
-``Obstáculos:`` - puede ser cualquier tipo de objeto que represente un peligro para el usuario, pueden ser ítems inamovibles, de IA o con físicas “esto es a su criterio”, al usuario hacer con tanto con el objeto se acaba el juego.
+``Obstáculos:`` - puede ser cualquier tipo de objeto que represente un peligro para el usuario, pueden ser ítems inamovibles, de IA o con físicas “esto es a su criterio”, al usuario hacer contacto con el objeto se acaba el juego.
 
 ``Monedas:``  puede ser cualquier tipo de objeto que represente algo importante de agarrar, buscar, o tomar para el usuario. Cada uno de estos objetos deberán representar un tipo de puntación numérica **“solo números enteros sin signo”** para el usuario **“mientras más obtengas más puntos tienes”**.
 
@@ -42,11 +42,11 @@ Escenas: el juego puede tener N cantidad de escenas, pero debe tener como mínim
 
 ## Comunicación al servidor
 
-Para esta prueba se ha asignado un servidor backend que ya posee escrita una Api Rest Full, la cual contiene endpoints para manejar los usuarios y sus puntaciones “se trata de un CRUD”.
+Para esta prueba se ha asignado un servidor backend que ya posee escrita una Api RESTful, la cual contiene endpoints para manejar los usuarios y sus puntaciones “se trata de un CRUD”.
 
 La idea principal es que el usuario para poder acceder al juego deberá registrarse primero o iniciar sesión si ya está registrado.
 
-No se requiere un control de seguridad o de sesión muy sofisticado, solo un consumo básico de una API Rest Full “CRUD” para manejar los estados de usuario; aquí solo se evaluarán tus habilidades para el consumo de Apis por HTTP desde Unity.
+No se requiere un control de seguridad o de sesión muy sofisticado, solo un consumo básico de una API RESTful “CRUD” para manejar los estados de usuario; aquí solo se evaluarán tus habilidades para el consumo de Apis por HTTP desde Unity.
 
 Cuando el usuario llegue al GameOver por haber colisionado con un obstáculo, solo en ese momento se deberá guardar – actualizar la puntación del usuario en el servidor “Endpoint: /setscore”
 
