@@ -9,7 +9,7 @@
 
 ## Puntos a evaluar
 
-- Beunas practicas y clean code
+- Buenas prácticas y clean code
 - Creatividad
 - Patrones de diseño: Creación, estructura y comportamiento
 - Principios SOLID
